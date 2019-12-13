@@ -1,0 +1,355 @@
+@charset "utf-8";
+
+*{
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "游ゴシック",'Arial, Helvetica', 'sans-serif';
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width:1000px;
+  margin: 0 auto;
+}
+
+header{
+  height: 80px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-bottom:155px;
+}
+.header-nav-area{
+	padding-top: 30px;
+	text-align: center;
+}
+header img{
+	width: 100px;
+	margin-top: 8px;
+	float: left;
+}
+header img:hover{
+	opacity: 0.5;
+}
+.header-nav{
+	font-size: 14px;
+	padding: 15px 20px;
+	color: #7d6b57;
+	font-weight: bold;
+	transition: all 0.3s;
+}
+.header-nav:hover{
+	background-color: rgba(239, 131, 74, 0.3);
+}
+.header-nav:active{
+	background-color: rgba(239, 131, 74, 0.5);
+}
+.fa-phone{
+	float: right;
+	font-weight: bold;
+	color: #fff;
+	background-color: rgba(125, 107, 87, 0.7);
+	padding: 5px 6px;
+	border-radius: 7px;
+	letter-spacing: 1px;
+}
+.kv{
+  opacity: 0.8;
+  background-image: url("img/nikko-photo1.png"); 
+  background-size: cover;
+  height: 900px;
+  color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+.title{
+	font-size: 30px;
+	line-height: 90px;
+	padding: 5px;
+	background-color:rgba(255, 255, 255, 0.5);
+}
+.orange{
+	color: rgba(239, 131, 74, 0.9);
+}
+
+.works{
+	margin-top: 100px;
+	color: #7d6b57;
+	text-align: center;
+}
+.works-title img{
+	width: 120px;
+}
+.works-title h2{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 100px;
+}
+.works-sample{
+	display:inline-block;
+	margin: 30px;
+	width: 50%;
+}
+.works-sample img{
+	width:100%;
+}
+.works p{
+	font-weight: bold;
+	background-color: #F0F0F0;
+	padding: 10px;
+}
+.works-area{
+	display: flex;
+}
+.arrow{
+	position: relative;
+	top: 250px;
+}
+.other{
+	margin-top: 100px;
+	background-color: #fbfaf7;
+	text-align: center;
+}
+.other p{
+	display: inline-block;
+	color: #7d6b57;
+	font-size: 18px;
+	font-weight: bold;
+	position: relative;
+	bottom: 16px;
+	padding-right: 50px;
+	border-bottom: 1px solid #7d6b57;
+}
+.other img{
+	background-color: #fff;
+	padding: 10px 30px;
+	border-radius: 5px;
+	border:2px solid #7d6b57;
+	transition: all 0.8s;
+}
+.other-works{
+	padding-top: 40px;
+}
+.other-mail{
+	position: relative;
+}
+.fa-phone-square{
+	position: relative;
+	left: 155px;
+	padding-bottom: 40px;
+}
+.fa-phone-square{
+	font-weight: bold;
+	color: #7d6b57;
+	display: block;
+	letter-spacing: 1px;
+}
+.other a:hover{
+	opacity: 0.6;
+}
+
+.service{
+	margin-top: 100px;
+	color: #7d6b57;
+	margin-bottom: 100px;
+	text-align: center;
+}
+.service-title img{
+	width:150px;
+}
+.service-title h2{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+.bunner img{
+	width: 40%;
+	margin:30px; 
+	transition:all 0.2s;
+}
+.bunner img:hover{
+	opacity: 0.5;
+}
+
+.news{
+	background-color: #fbfaf7;
+	width: 100%;
+	color: #7d6b57;
+	padding: 30px 0px;
+	margin-bottom:80px;
+}
+.news-title{
+	text-align: center;
+}
+.news-title img{
+	width: 100px;
+}
+.news-title h2{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.news-box{
+	background-color: #fff;
+	width: 500px;
+	height: 80px;
+	margin: 0 auto;
+	padding-top: 1px;
+	padding-left: 20px;
+}
+.news-box p{
+	font-weight: bold;
+	text-align: center;
+}
+
+.blog{
+	margin-bottom: 80px;
+}
+.blog img{
+	display: block;
+	width: 180px;
+	margin: auto;
+	padding: 20px 0px;
+	transition: all 0.1s;
+}
+.blog-icon:hover{
+  opacity: 0.8;
+}
+
+footer{
+  width: 100%;
+  background-color:#fbfaf7;
+  text-align: center;
+  color: #7d6b57;
+  font-weight: bold;
+}
+.footer-nav-area{
+	padding: 60px 0px;
+}
+.footer-nav{
+	color: #7d6b57;
+	margin: 10px;
+	padding: 10px;
+	font-size: 14px;
+}
+footer img{
+	width: 120px;
+	margin-bottom: 25px;
+}
+.company{
+	line-height: 15px;
+	margin-bottom: 80px;
+}
+.footer-nav:hover{
+	color: #f0834a;
+}
+
+.gotop img{
+	width: 60px;
+	opacity: 0.8;
+	transition: all 0.3s;
+}
+.gotop{
+	position: fixed;
+	top: 650px;
+	right:0;
+	z-index: 10;
+}
+.gotop img:hover{
+	opacity: 0.5;
+}
+
+.hudosan-bunner img{
+	width: 700px;
+}
+.hudosan-bunner img:hover{
+	opacity: 0.7;
+}
+.hudosan-bunner{
+	margin-top: 200px;
+	margin-bottom: 150px;
+}
+
+#nav-drawer {
+     display:none;
+   }
+#nav-drawer {
+  position: relative;
+}
+
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+  display:none;
+}
+
+/*アイコンのスペース*/
+#nav-open {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+/*ハンバーガーの形をCSSで表現*/
+#nav-open span, #nav-open span:before, #nav-open span:after {
+  position: absolute;
+  height: 4px;/*線の太さ*/
+  width: 40px;/*長さ*/
+  border-radius: 3px;
+  background: #7d6b57;
+  display: block;
+  content: '';
+  cursor: pointer;
+}
+#nav-open span:before {
+  bottom: -8px;
+}
+#nav-open span:after {
+  bottom: -16px;
+}
+
+/*閉じる用の薄黒箇所*/
+#nav-close {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
+
+/*メニューの中身*/
+#nav-content {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 90%;
+  max-width: 330px;/*最大幅（お好みで調整を）*/
+  height: 100%;
+  background: #fff;
+  transition: .3s ease-in-out;
+  -webkit-transform: translateX(-105%);
+  transform: translateX(-105%);
+  color: #7d6b57;
+  font-weight: bold;
+  padding-top:50px;
+}
+
+/*チェックがついたら表示させる*/
+#nav-input:checked ~ #nav-close {
+  display: block;
+  opacity: .5;
+}
+#nav-input:checked ~ #nav-content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+  box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
